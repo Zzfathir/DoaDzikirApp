@@ -45,4 +45,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    //noinspection UseTomlInstead
+    implementation("androidx.core:core-splashscreen:1.1.0-alpha01")
 }

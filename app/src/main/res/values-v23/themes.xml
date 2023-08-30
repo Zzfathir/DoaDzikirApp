@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <style name="Theme.DoaDzikirApp" parent="Base.Theme.DoaDzikirApp">
+    <!-- Transparent system bars for edge-to-edge. -->
+    <item name="android:navigationBarColor">@android:color/transparent</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+  </style>
+
+  <style name="PagiActivity" parent="Base.Theme.DoaDzikirApp">
+    <item name="android:statusBarColor">@color/morning_blue</item>
+    <item name="colorPrimary">@color/morning_blue</item>
+    <item name="title">Dzikir Pagi</item>
+  </style>
+</resources>

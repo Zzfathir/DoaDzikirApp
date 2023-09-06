@@ -3,9 +3,8 @@ package com.fathirdev.doadzikirapp.presentation.pagipetang
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.fathirdev.doadzikirapp.DoaDzikirAdapter
+import com.fathirdev.doadzikirapp.adapter.DoaDzikirAdapter
 import com.fathirdev.doadzikirapp.R
-import com.fathirdev.doadzikirapp.databinding.ActivityPagiBinding
 import com.fathirdev.doadzikirapp.databinding.ActivityPetangBinding
 import com.fathirdev.doadzikirapp.model.DataDoaDzikir
 

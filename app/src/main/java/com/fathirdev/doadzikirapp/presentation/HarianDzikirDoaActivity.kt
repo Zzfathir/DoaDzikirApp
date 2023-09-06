@@ -3,9 +3,8 @@ package com.fathirdev.doadzikirapp.presentation
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.fathirdev.doadzikirapp.DoaDzikirAdapter
+import com.fathirdev.doadzikirapp.adapter.DoaDzikirAdapter
 import com.fathirdev.doadzikirapp.databinding.ActivityHarianDzikirDoaBinding
-import com.fathirdev.doadzikirapp.model.DataDoaDzikir
 import com.fathirdev.doadzikirapp.R
 import com.fathirdev.doadzikirapp.model.DzikirDoa
 

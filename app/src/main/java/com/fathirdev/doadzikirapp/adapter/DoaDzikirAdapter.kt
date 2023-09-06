@@ -1,10 +1,11 @@
-package com.fathirdev.doadzikirapp
+package com.fathirdev.doadzikirapp.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.fathirdev.doadzikirapp.R
 import com.fathirdev.doadzikirapp.model.DzikirDoa
 
 class DoaDzikirAdapter(private val listDzikirDoa: ArrayList<DzikirDoa>) : RecyclerView.Adapter<DoaDzikirAdapter.DzikirViewHolder>() {

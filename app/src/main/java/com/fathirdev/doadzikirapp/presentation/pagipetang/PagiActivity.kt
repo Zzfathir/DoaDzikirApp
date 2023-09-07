@@ -15,7 +15,7 @@ class PagiActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         title = resources.getString(R.string.txt_dzikir_pagi)
-        actionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         _binding = ActivityPagiBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

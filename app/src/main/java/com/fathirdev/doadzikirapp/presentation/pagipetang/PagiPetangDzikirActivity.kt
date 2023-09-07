@@ -11,7 +11,7 @@ class PagiPetangDzikirActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pagi_petang_dzikir)
-
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         val btnPagi: ImageButton = findViewById(R.id.img_btn_dzikir_pagi)
         val btnPetang: ImageButton = findViewById(R.id.img_btn_dzikir_petang)
 
@@ -25,6 +25,12 @@ class PagiPetangDzikirActivity : AppCompatActivity(), View.OnClickListener {
             R.id.img_btn_dzikir_pagi -> startActivity(Intent(this, PagiActivity::class.java))
             R.id.img_btn_dzikir_petang -> startActivity(Intent(this, PetangActivity::class.java))
         }
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressedDispatcher.onBackPressed()
+        finish()
+        return super.onSupportNavigateUp()
     }
 
 

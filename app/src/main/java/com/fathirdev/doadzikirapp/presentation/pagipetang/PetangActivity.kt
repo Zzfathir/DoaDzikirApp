@@ -15,7 +15,7 @@ class PetangActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         title = resources.getString(R.string.txt_dzikir_petang)
-        actionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         _binding = ActivityPetangBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

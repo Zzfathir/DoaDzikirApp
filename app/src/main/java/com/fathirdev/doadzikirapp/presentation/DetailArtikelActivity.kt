@@ -15,7 +15,7 @@ class DetailArtikelActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        actionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         title = "Artikel Islami"
         setContentView(R.layout.activity_detail_artikel)
 

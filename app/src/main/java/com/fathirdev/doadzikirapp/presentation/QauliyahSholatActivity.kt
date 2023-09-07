@@ -13,7 +13,7 @@ class QauliyahSholatActivity : AppCompatActivity() {
     private val binding get() = _binding as ActivityQauliyahSholatBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        actionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         _binding = ActivityQauliyahSholatBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
